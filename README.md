@@ -1,6 +1,6 @@
 # digits-multi-detect
 
-first: copy this code to your ~/
+first: copy this code to your ~/ , change the folder name to 'digits-multi-detect'
 
 second: sh setup.sh
 
