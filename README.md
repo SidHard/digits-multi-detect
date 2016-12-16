@@ -12,5 +12,7 @@ third: type http://localhost:5000/ in your browser
 
 6: use the detectnet_network_multiclass.prototxt, change the output num to your own class number. Here 5 places need to be set, line 24, 63, 2328, 2446, 2461
 
+7: use test.py to test your pictures.
+
 
 good luck!
