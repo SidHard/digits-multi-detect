@@ -2,7 +2,7 @@
 
 first: copy this code to your ~/ , change the folder name to 'digits-multi-detect'
 
-second: sh setup.sh
+second: follow setup.txt
 
 third: type http://localhost:5000/ in your browser
 
