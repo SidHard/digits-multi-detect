@@ -148,7 +148,7 @@ class GroundTruth:
         with open(self.m_labelPath, 'r') as f:
             for line in f.readlines():
                 labelList.append(line.strip())
-            print 'index: ', labelList.index('wheel'), labelList.index('door'), labelList.index('window')
+            print '\n index: ', labelList, '\n'
 
         # if class_mappings is not None:
         #     GroundTruthObj.OBJECT_TYPES = class_mappings
