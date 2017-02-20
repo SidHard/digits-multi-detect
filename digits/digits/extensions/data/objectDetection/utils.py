@@ -124,7 +124,10 @@ class GroundTruthObj:
 
     def set_type(self):
         # self.object = self.OBJECT_TYPES.get(self.stype, ObjectType.Dontcare)
-        self.object = labelList.index(self.stype) + 1
+        if self.stype in labelList:
+            self.object = labelList.index(self.stype) + 1
+        else:
+            self.object = 0
 
 
 class GroundTruth:
